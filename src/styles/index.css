@@ -9,3 +9,81 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+/* 
+    You can write your own styles here...    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+*/
+body{
+    background-color: black;
+}
+
+.todo{
+    width: 600px;
+    min-height: 600px;
+    border: solid black;
+    border-radius: 10px;
+    justify-items: center;
+    position: relative;
+    background-color: white;
+}
+
+.text-center{
+    justify-items: center;
+    margin-top: 25px;
+}
+
+.tareasPendientes{
+    font-size: 22px;
+    font-weight: bold;
+    color: lightslategray;
+    margin: 10px;
+}
+
+.date{
+    font-size: 22px;
+    margin-top: 10px;
+    color: lightslategray;
+}
+
+.tareas{    
+    width: 500px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Ocultar el ícono por defecto */
+.delete {
+    display: none;
+  }
+
+  /* Mostrar el ícono cuando el ratón esté sobre el li */
+  li:hover .delete {
+    display: inline-block;
+  }
+
+
+.inputTask{
+    width: 500px;
+}
+
+.tareasCreadas{
+    font-weight: bold;
+}
+
+
+
+.deleteAllTasks{
+ 
+    margin: 20px 0;
+}
+
+
+.write-task-container {
+    align-items: center; /* Alinea verticalmente el texto y la flecha */
+    gap: 8px; /* Espaciado entre el texto y la flecha */
+}
